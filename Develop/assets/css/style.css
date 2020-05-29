@@ -43,6 +43,7 @@ header nav ul li a {
 /* Header and navigation end */
 p {
     font-size: 16px;
+    line-height: 1.5;
 }
 /* Hero Style Start */
 .hero {
@@ -54,6 +55,35 @@ p {
     background-position: center;
 }
 /* Hero Style End */
+/* What Horiseon Offers Style Start */
+.products {
+    width: 70%;
+    margin: 20px 10px 20px 10px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+    overflow: auto;
+}
+.products img {
+    height: 200px;
+    margin: 0 auto;
+    width: 30%;
+    float: left;
+}
+.product-desc {
+    padding: 0 35px 0 35px;
+    float: left;
+    width: 65%;
+    margin: auto;
+}
+.section-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.text-left {
+    text-align: left;
+}
+/* What Horiseon Offrs Style End */
 
 .float-left {
     float: left;
