@@ -56,10 +56,10 @@ p {
 }
 /* Hero Style End */
 /* What Horiseon Offers Style Start */
-.products {
-    width: 70%;
+article.products {
+    width: 80%;
     margin: 25px;
-    padding: 50px;
+    padding: 60px 50px 60px 50px;
     height: fit-content;
     background-color: #0072bb;
     overflow: auto;
@@ -85,12 +85,11 @@ p {
 }
 /* What Horiseon Offrs Style End */
 /* Sidebar Style */
-.benefits {
+aside.benefits {
     margin: 0 25px ;
     padding: 20px;
-    /*clear: both;*/
     float: right;
-    width: 25%;
+    width: 15%;
     height: 100%;
     background-color: #2589bd;
 }
@@ -110,8 +109,7 @@ p {
 /* apply styles to footer */
 footer {
     padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    clear: both; 
     text-align: center;
 }
 footer h2 {
